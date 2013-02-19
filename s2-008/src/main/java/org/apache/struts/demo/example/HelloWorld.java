@@ -26,6 +26,8 @@ package org.apache.struts.demo.example;
  */
 public class HelloWorld extends ExampleSupport {
 
+    private long id;
+
     public String execute() throws Exception {
         setMessage(getText(MESSAGE));
         return SUCCESS;
@@ -58,4 +60,17 @@ public class HelloWorld extends ExampleSupport {
     public void setMessage(String message) {
         this.message = message;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getPassword() {
+        return "Secret";
+    }
+
 }

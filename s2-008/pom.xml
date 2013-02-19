@@ -9,7 +9,7 @@
     <name>s2-008</name>
 
     <properties>
-        <struts2.version>2.3.8</struts2.version>
+        <struts2.version>2.2.3</struts2.version>
     </properties>
 
     <dependencies>
@@ -69,13 +69,7 @@
                 <artifactId>maven-jetty-plugin</artifactId>
                 <version>6.1.21</version>
                 <configuration>
-                    <scanIntervalSeconds>10</scanIntervalSeconds>
-                    <scanTargets>
-                        <scanTarget>src/main/webapp/WEB-INF</scanTarget>
-                        <scanTarget>src/main/webapp/WEB-INF/web.xml</scanTarget>
-                        <scanTarget>src/main/resources/struts.xml</scanTarget>
-                        <scanTarget>src/main/resources/example.xml</scanTarget>
-                    </scanTargets>
+                    <scanIntervalSeconds>0</scanIntervalSeconds>
                 </configuration>
             </plugin>
         </plugins>

@@ -24,5 +24,7 @@
     </li>
 </ul>
 
+Id = <s:property value="id"/>
+
 </body>
 </html>

@@ -8,8 +8,15 @@
 -->
 <struts>
   <package name="example" namespace="/example" extends="struts-default">
+
     <action name="HelloWorld" class="org.apache.struts.demo.example.HelloWorld">
-      <result>/example/HelloWorld.jsp</result>
+        <interceptor-ref name="defaultStack"/>
+        <interceptor-ref name="cookie">
+            <param name="cookiesName">*</param>
+            <param name="cookiesValue">1,2</param>
+        </interceptor-ref>
+        <result>/example/HelloWorld.jsp</result>
+        <result name="input">/example/HelloWorld.jsp</result>
     </action>
 
     <action name="Login_*" method="{1}" class="org.apache.struts.demo.example.Login">
