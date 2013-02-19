@@ -4,3 +4,5 @@
 *.iws
 
 .DS_Store
+
+**/target
