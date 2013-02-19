@@ -24,5 +24,9 @@
     </li>
 </ul>
 
+<form name="loginform" id="loginform" method="post" action="">
+    <s:submit action="login" method="cantLogin" name="cantlogin" theme="simple" />
+</form>
+
 </body>
 </html>
