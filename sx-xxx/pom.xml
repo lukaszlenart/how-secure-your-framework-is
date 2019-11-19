@@ -9,7 +9,7 @@
     <name>sx-xxx</name>
 
     <properties>
-        <struts2.version>2.3.8</struts2.version>
+        <struts2.version>2.5.20</struts2.version>
     </properties>
 
     <dependencies>
