@@ -9,7 +9,7 @@
     <name>s2-006</name>
 
     <properties>
-        <struts2.version>2.2.1</struts2.version>
+        <struts2.version>2.5.20</struts2.version>
     </properties>
 
     <dependencies>
